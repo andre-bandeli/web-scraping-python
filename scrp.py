@@ -10,9 +10,8 @@ for link in soup.find_all("a", {"class": "thumbnail"}):
 
 for links in lista:
     print(links)
-        
 
-
+print('o primeiro item da lista é: ', lista[0])
 
 print("o tamanho da lista completa é: ", len(lista))
 
