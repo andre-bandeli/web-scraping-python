@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
+import time
 
 page = requests.get("https://empregacampinas.com.br/?s=marketing")
 soup = BeautifulSoup(page.content, 'html.parser')
@@ -19,3 +20,4 @@ while True:
     if lista_aux[0] != lista[0]:
         print('há atualização')
         lista_aux.append(lista[0])
+        time.sleep(15000)
