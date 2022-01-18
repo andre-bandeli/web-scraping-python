@@ -1,4 +1,4 @@
-## WebScraping Python + BS4 + Telegram telepot  ![Badge](https://img.shields.io/badge/rest-api-%237159c1?style=for-the-badge&logo=ghost)
+## WebScraping Python + BS4 + Telegram telepot  ![Badge](https://img.shields.io/badge/Python-BS4-%237159c1?style=for-the-badge&logo=ghost) ![Badge](https://img.shields.io/badge/Telegram-Telepot-%237159c1?style=for-the-badge&logo=ghost)
  scraping que realiza busca por nova incidência de vaga. Para cada nova vaga postada, ao se atualizar o timer, uma mensagem com o link da vaga é mandado via telegram.
 
 ### Dependências 
