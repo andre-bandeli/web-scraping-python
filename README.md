@@ -3,8 +3,8 @@
 
 ### Dependências 
 
-python == 3+
-beautifulsoup4==4.10.0
+- python == 3+
+- beautifulsoup4==4.10.0
 
 
 ### Como rodar:
