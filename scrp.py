@@ -1,10 +1,10 @@
 from bs4 import BeautifulSoup
 import requests
 import time
-import telepot
+#import telepot
 
-bot_chatID = 'your id'
-bot = telepot.Bot('your code')
+#bot_chatID = 'your id'
+#bot = telepot.Bot('your code')
 
 page = requests.get("https://empregacampinas.com.br/?s=marketing")
 soup = BeautifulSoup(page.content, 'html.parser')
@@ -27,8 +27,8 @@ while True:
     a = get_equals(last_url, new_url)
     if a != True:
         for links in lista:
-            bot.sendMessage(1142090567, links)
+            #bot.sendMessage(1142090567, links)
             lista_aux[0] = lista[0]
-    
-    time.sleep(15)
+            print(links)
+    #time.sleep(15)
 
